@@ -1,13 +1,14 @@
 {
-    "name": "utils",
-    "version": "0.0.1",
-    "description": "实用程序--提供一些常用的API以及UI",
+    "name": "{{name}}",
+    "version": "1.0.0",
+    "description": "{{description}}",
     "scripts": {
         "lint": "eslint --ext .ts,.vue src",
+        "dev": "webpack --progress --hide-modules --module development",
         "build": "webpack --progress --hide-modules"
     },
-    "author": "Arvin",
-    "license": "ISC",
+    "author": "{{author}}",
+    "license": "MIT",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^3.10.1",
         "@typescript-eslint/parser": "^3.10.1",
