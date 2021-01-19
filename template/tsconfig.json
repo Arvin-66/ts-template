@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        /* Visit https://aka.ms/tsconfig.json to read more about this file */
+        "target": "ES5",
+        "module": "ES6",
+        "downlevelIteration": true,
+        "strict": true,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": false,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        // "types": [
+        //     "webpack-env"
+        // ],
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        },
+        "lib": [
+            "DOM",
+            "ESNext",
+            "DOM.Iterable",
+            "ScriptHost"
+        ]
+    },
+    "include": [
+        "@types",
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+    ]
+}
