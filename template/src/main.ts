@@ -2,13 +2,13 @@
  * @Author: arvin
  * @Date: 2020-09-02 16:13:47
  * @Last Modified by: Arvin
- * @Last Modified time: 2021-01-19 18:09:01
+ * @Last Modified time: 2021-01-20 16:32:35
  */
 
 namespace Main {
 
     export function SayHello() {
-        console.log('Hello World')
+        console.log('Hello World');
     }
 }
 
