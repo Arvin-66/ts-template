@@ -3,7 +3,7 @@
  * @Author: arvin
  * @Date: 2020-09-16 13:35:48
  * @Last Modified by: Arvin
- * @Last Modified time: 2021-01-19 18:05:37
+ * @Last Modified time: 2021-01-20 16:34:33
  * @Desc 声明文件
  */
 
@@ -24,4 +24,3 @@ type Params = { [key: string]: string | number | unknown }
 
 /** 事件捕获/事件冒泡 */
 type Capture = boolean | { once?: boolean; passive?: boolean }
-
