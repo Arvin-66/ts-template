@@ -19,6 +19,47 @@ module.exports = {
             message: 'Author',
             default: ''
         },
+        library: {
+            type: 'input',
+            message: 'Define a global variable name used',
+            default: 'utils'
+        },
+        libraryTarget: {
+            type: 'list',
+            message: 'Set the exposure mode of the library',
+            choices: [
+                {
+                    name: 'umd',
+                    value: 'umd',
+                    short: 'umd'
+                }, {
+                    name: 'amd',
+                    value: 'amd',
+                    short: 'amd'
+                }, {
+                    name: 'window',
+                    value: 'window',
+                    short: 'window'
+                }, {
+                    name: 'global',
+                    value: 'global',
+                    short: 'global'
+                }, {
+                    name: 'this',
+                    value: 'this',
+                    short: 'this'
+                }, {
+                    name: 'commonjs',
+                    value: 'commonjs',
+                    short: 'commonjs'
+                }, {
+                    name: 'commonjs2',
+                    value: 'commonjs2',
+                    short: 'commonjs2'
+                }
+            ],
+            default: 'umd'
+        },
         autoInstall: {
             type: 'list',
             message: 'Should we run `npm install` for you after the project has been created?',

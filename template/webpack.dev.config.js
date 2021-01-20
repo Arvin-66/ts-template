@@ -2,7 +2,7 @@ const path = require('path');
 const eslintFriendlyFormatter = require('eslint-friendly-formatter');
 
 module.exports = {
-    mode: 'production',
+    mode: 'devlopment',
     entry: {
         {{library}}: ['./src/main.ts']
     },
