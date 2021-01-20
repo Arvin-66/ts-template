@@ -11,10 +11,10 @@ module.exports = {
         filename: '[name].min.js',
         libraryTarget: '{{libraryTarget}}',
         library: '[name]',
-        {{#if_eq libraryTarget "umd"}}
+        {{#if_or libraryTarget "umd"}}
         globalObject: 'this',
         umdNamedDefine: true,
-        {{/if_eq}}
+        {{/if_or}}
         libraryExport: 'default'
     },
     resolve: {
