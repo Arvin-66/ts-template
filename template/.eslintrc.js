@@ -18,6 +18,7 @@ module.exports = {
         indent: 0,
         'comma-dangle': ['error', 'never'],
         'import/no-unresolved': [2, { ignore: ['^@/'] }],
+        'no-undef': 0,
         'no-unused-vars': 0
     }
 };
